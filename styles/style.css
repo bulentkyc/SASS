@@ -1,0 +1,29 @@
+header {
+  background-color: white;
+}
+
+article {
+  width: 300px;
+  border: 2px solid #f76300;
+  border-radius: 56px;
+}
+
+article h5 {
+  color: #f76300;
+}
+article p {
+  padding: 15px;
+  color: black;
+}
+article h5 {
+  font-size: 30px;
+  margin: 10px;
+  text-align: center;
+}
+
+body {
+  background-image: linear-gradient(#24335a, white);
+  background-repeat: no-repeat;
+}
+
+/*# sourceMappingURL=style.css.map */

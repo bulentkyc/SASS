@@ -1,0 +1,23 @@
+@use 'var';
+
+article{
+    width: 300px;
+    border: 2px solid var.$the404s-primary;
+    border-radius: 56px;
+}
+
+article {
+    h5, p {
+        color: var.$the404s-secondary;
+    }
+
+    p {
+        padding:15px;
+    }
+
+    h5 {
+        font-size: var.$lg;
+        margin: 10px;
+        text-align:center;
+    }
+}
