@@ -1,12 +1,30 @@
-
 @use 'var';
 @use 'header';
 @use 'card_v2';
 
-body{
-    background-image: linear-gradient( var.$the404s-primary, white);
-    background-repeat: no-repeat;
+
+@mixin component($width, $height, $color, $rotate) {
+    width: $width;
+    height: $height;
+    background-color: $color;
+    transform: rotate($rotate);
 }
 
+%gradient-bg {
+    background-image: linear-gradient( var.$the404s-primary, white);
+    background-repeat: no-repeat;
+    @include component(50vw, 50vh, white, 90deg);
+}
 
+header {
+    @include component(50%, 10vh, coral, -30deg);
+}
+
+body{
+    @extend %gradient-bg;
+}
+
+article {
+    @include component(300px, 100vh, pink, 0);
+}
 

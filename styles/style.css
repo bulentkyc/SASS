@@ -24,6 +24,24 @@ article h5 {
 body {
   background-image: linear-gradient(#24335a, white);
   background-repeat: no-repeat;
+  width: 50vw;
+  height: 50vh;
+  background-color: white;
+  transform: rotate(90deg);
+}
+
+header {
+  width: 50%;
+  height: 10vh;
+  background-color: coral;
+  transform: rotate(-30deg);
+}
+
+article {
+  width: 300px;
+  height: 100vh;
+  background-color: pink;
+  transform: rotate(0);
 }
 
 /*# sourceMappingURL=style.css.map */
