@@ -13,7 +13,7 @@
 %gradient-bg {
     background-image: linear-gradient( var.$the404s-primary, white);
     background-repeat: no-repeat;
-    @include component(50vw, 50vh, white, 90deg);
+    @include component(50vw, 50vh, white, 5deg);
 }
 
 header {
@@ -22,9 +22,13 @@ header {
 
 body{
     @extend %gradient-bg;
+    padding: 50px;
 }
 
 article {
     @include component(300px, 100vh, pink, 0);
 }
 
+footer {
+    margin-top: 1vh+10px;
+}

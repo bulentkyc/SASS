@@ -27,7 +27,7 @@ body {
   width: 50vw;
   height: 50vh;
   background-color: white;
-  transform: rotate(90deg);
+  transform: rotate(5deg);
 }
 
 header {
@@ -37,11 +37,19 @@ header {
   transform: rotate(-30deg);
 }
 
+body {
+  padding: 50px;
+}
+
 article {
   width: 300px;
   height: 100vh;
   background-color: pink;
   transform: rotate(0);
+}
+
+footer {
+  margin-top: 1vh;
 }
 
 /*# sourceMappingURL=style.css.map */
